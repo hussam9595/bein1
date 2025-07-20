@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "A Vercel serverless function to proxy dynamic M3U8 streams.",
   "main": "api/stream.js",
-  "type": "module", // هذا السطر مهم لاستخدام 'import' بدلاً من 'require'
+  "type": "module",
   "scripts": {
-    "start": "vercel dev" // لتشغيل الخادم محلياً للاختبار
+    "start": "vercel dev"
   },
   "dependencies": {
-    "node-fetch": "^3.0.0" // المكتبة التي سنستخدمها لعمل طلبات HTTP
+    "node-fetch": "^3.0.0"
   },
   "devDependencies": {
-    "vercel": "^34.0.0" // Vercel CLI كأداة تطوير
+    "vercel": "^34.0.0"
   }
 }
